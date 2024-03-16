@@ -1,0 +1,53 @@
+.Testimonial_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Testimonial_container > h2 {
+  color: var(--text-black);
+  align-self: flex-start;
+  text-align: left;
+  /* font-family:  var(--font-secondary); */
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+  width: 100%;
+  background-color: #02010100;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 42px 0px;
+  border-radius: 0px 0px 0px 0px;
+}
+.Testimonial_details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.Testimonial_img {
+  height: 70px;
+  width: 70px;
+}
+.Testimonial_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.Testimonial_information > h3 {
+  text-align: left;
+  color: var(--text-black);
+  font-family: var(--font-secondary);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: -0.48px;
+}
+.Testimonial_information > span {
+  color: var(--text-secondary);
+  text-align: left;
+  font-family: "Libre Caslon Text", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+}

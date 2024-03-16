@@ -1,0 +1,21 @@
+.Heading_content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 100px 0 0 0;
+  color: var(--text-black);
+}
+.Heading_content p {
+  color: var(--text-secondary);
+  font-family: var(--font-secondary);
+}
+.Heading_content h2 {
+  font-family: var(--font-secondary);
+  max-width: 630px;
+}
+
+.Heading_content h3 {
+  max-width: 730px;
+  line-height: 33px;
+  font-weight: 400;
+}

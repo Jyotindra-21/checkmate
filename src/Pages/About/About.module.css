@@ -1,0 +1,192 @@
+.about_container {
+  background-color: white;
+}
+
+.About_Main,
+.Staff_Main,
+.Teastimonial_about {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 0 20px;
+}
+
+/* visit section */
+
+.Visit_sec_Details {
+  display: flex;
+  margin-top: 50px;
+}
+
+.Visit_Image_Wrapper {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.Visit_Content {
+  flex: 1;
+  padding-left: 10%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: var(--text-black);
+}
+.Visit_Content > span > a {
+  text-decoration: none;
+  color: inherit;
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.Visit_Image_Wrapper > img {
+  max-width: 425px;
+}
+
+.Visit_Content p {
+  color: var(--text-black);
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+.Visit_Content > h3 {
+  font-size: 18px;
+}
+
+.Visit_Content > h1 {
+  font-size: 36px;
+  font-family: "Gothic A1", sans-serif;
+}
+/* strategic thinking */
+
+.strategic {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  margin-top: 38px;
+}
+.strategic_card {
+  padding: 0px 20px 0px 0px;
+  width: 50%;
+}
+.strategic_img {
+  margin: 0px 0px 51px 0px;
+}
+
+.strategic_img > img {
+  width: 82.1%;
+  max-width: 100%;
+}
+.strategic_desc > p {
+  color: var(--text-black);
+  font-family: var(--font-secondary);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin: 0px 0px 20px 0px;
+  letter-spacing: 0px;
+}
+/* Team section */
+.Team_container {
+  display: flex;
+  margin-bottom: 25px;
+}
+.Team_card {
+  width: 25%;
+  padding: 0px 20px 0px 0px;
+}
+.Team_Img img {
+  width: 100%;
+}
+.Team_details h3 {
+  color: var(--text-black);
+  font-family: var(--font-secondary);
+  font-size: 24px;
+  margin: 30px 0px 0px 0px;
+  text-align: left;
+  font-weight: 700;
+  line-height: 1.1em;
+  letter-spacing: -0.48px;
+}
+.Team_details span {
+  color: var(--text-secondary);
+  font-family: "Libre Caslon Text", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+  margin: 5px 0px 0px 0px;
+  align-self: flex-start;
+  text-align: left;
+}
+
+/* Testimonial */
+.Testimonial_card {
+  display: flex;
+  justify-content: flex-end;
+}
+.Testimonial_swiper {
+  width: 39.6%;
+}
+.Testimonial_img {
+  width: 43.1%;
+  margin: 0px 0px 0px 40px 
+}
+.Testimonial_img img{
+    width: 100%;
+}
+
+/* Responsive  */
+@media (max-width: 1080px) {
+  .About_Main {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 830px) {
+  .Visit_sec_Details {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .strategic {
+    flex-direction: column;
+  }
+  .strategic_card {
+    width: 100%;
+  }
+  .strategic_img > img {
+    width: 100%;
+  }
+  .Team_container {
+    flex-direction: column;
+  }
+  .Team_card {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .Testimonial_card {
+    flex-direction: column-reverse;
+  }
+  .Testimonial_img {
+    width: 100%;
+    margin: 0;
+  }
+  .Testimonial_swiper{
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+
+
+
+@media (max-width: 480px) {
+  .Visit_Image_Wrapper > img,
+  .Visit_Content {
+    width: 100%;
+    padding: 0;
+  }
+}

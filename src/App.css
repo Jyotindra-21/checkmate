@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Libre Caslon Text", serif;
+}
+
+html,
+body {
+  background-color: var(--bg-primary-black);
+  color: white;
+}
+
+:root {
+  --bg-primary-black: rgb(23, 23, 23);
+  --text-white: rgb(255, 255, 255);
+  --text-black: rgb(23, 23, 23);
+  --text-secondary: rgb(162, 162, 162);
+
+  --font-secondary: "Fira Sans", sans-serif;
+}
+
+.section-sub-heading {
+  font-size: 14px;
+}
+
+.section-heading {
+  font-size: clamp(1.75rem, 1.5498rem + 1.0008vw, 2.5rem);
+}
+
+.section-24px {
+  font-size: clamp(1.125rem, 1.0249rem + 0.5004vw, 1.5rem);
+}
+
+/* Carousel */
+
+
+
+/* .carousel {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.carousel-indicators {
+  position: unset !important;
+  justify-content: flex-start !important;
+  margin: 20px 0 !important;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: transparent !important;
+  background-image: radial-gradient(at center center, #171717 23%, #ffffff 23%) !important;
+  width: 36px !important;
+  height: 36px !important;
+  border-radius: 50% !important;
+}
+.carousel-indicators .active{
+  background-image: radial-gradient(at center center, #171717 23%, #A2A2A266 23%) !important;
+} */
