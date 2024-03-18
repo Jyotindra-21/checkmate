@@ -1,6 +1,7 @@
 .Footer_sec {
   max-width: 1200px;
   height: 500px;
+  padding: 100px 20px;
   margin-inline: auto;
   background-color: var(--text-black);
 }
@@ -138,4 +139,39 @@
 .social > ul > li a:hover {
   color: var(--text-black);
   background-color: var(--text-white);
+}
+
+@media (max-width: 1080px) {
+}
+
+@media (max-width: 830px) {
+  .Footer_wrapper {
+    flex-direction: column;
+  }
+  .Company_social {
+    padding: 0;
+  }
+  .Company_social > h2 {
+    font-size: 32px;
+  }
+  .Company_social,
+  .Company_social ,.Company_policy , .social ,.Company_policy > p{
+    width: 100%;
+  }
+  .Company_address {
+    margin-bottom: 44px;
+  }
+  .Company_Links{
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+  .social > ul{
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 380px) {
 }
