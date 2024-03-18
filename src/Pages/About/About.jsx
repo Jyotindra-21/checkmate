@@ -7,6 +7,7 @@ import style from "./About.module.css"
 import Heading from '../../Components/Heading/Heading'
 import { Link } from 'react-router-dom'
 import Testimonial from '../../Components/Testimonial/Testimonial'
+import TestimonialsSlider from '../../Components/TestimonialsSlider/TestimonialsSlider'
 
 
 export default function About() {
@@ -135,9 +136,7 @@ export default function About() {
 
         <div className={style.Testimonial_card}>
           <div className={style.Testimonial_swiper}>
-            < Testimonial />
-
-            {/* <Testimonial /> */}
+           <TestimonialsSlider />
           </div>
           <div className={style.Testimonial_img}>
             <img src="/assets/Testimonials_image.webp" alt="" />

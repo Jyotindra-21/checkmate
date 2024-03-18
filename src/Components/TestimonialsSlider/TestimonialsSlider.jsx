@@ -1,13 +1,16 @@
 import styles from "./TestimonialsSlider.module.css";
+import Carousel from 'react-bootstrap/Carousel';
 import React from "react";
+import Testimonial from "../Testimonial/Testimonial";
 export default function TestimonialsSlider() {
   return (
-    <div className={styles.Testimonial_Slider_wrapper}>
-      <div className={styles.Testimonial_Slides}>
-        <div className={styles.Testimonial_Slide}>Slide01</div>
-        <div className={styles.Testimonial_Slide}>Slide01</div>
-        <div className={styles.Testimonial_Slide}>Slide01</div>
-      </div>
-    </div>
+    <Carousel>
+      <Carousel.Item interval={1000}>
+        <Testimonial />
+      </Carousel.Item>
+      <Carousel.Item interval={1000}>
+        <Testimonial />
+      </Carousel.Item>
+    </Carousel>
   );
 }

@@ -1,6 +1,7 @@
 .Landing_Main,
 .Visit_Sec,
-.Benefits_Sec > div {
+.Benefits_Sec > div,
+.Teastimonial_about {
   max-width: 1200px;
   margin-inline: auto;
 }
@@ -21,6 +22,7 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
+  width: 100%;
 }
 
 .Margin_Left {
@@ -28,6 +30,11 @@
 }
 
 .Main_Header > h1 {
+  text-align: left;
+  color: var(--text-white);
+  font-size: 144px;
+  font-weight: 700;
+  letter-spacing: -2.88px;
   width: 100%;
   overflow-x: hidden;
   font-family: var(--font-secondary);
@@ -269,30 +276,49 @@
 
 /* Testomonials Section */
 
-.Testimonials_sec{
+.Testimonials_sec {
+  background-image: url("/assets/bg_sq2.webp");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 35.4% auto;
   background-color: var(--text-white);
   color: var(--bg-primary-black);
   padding: 100px 20px;
 }
-
-.Testimonials_Wrapper{
+.Testimonials_Wrapper {
   max-width: 1200px;
   margin-inline: auto;
 }
 
 .Testimonials_Details p,
-.Testimonials_Details h2{
+.Testimonials_Details h2 {
   font-family: var(--font-secondary);
 }
 
-.Testimonials_Details p{
+.Testimonials_Details p {
   margin-bottom: 30px;
   font-weight: 600;
   color: var(--text-secondary);
 }
 
-.Testimonials_Details h2{
+.Testimonials_Details h2 {
   max-width: 500px;
+}
+
+/* Testimonial */
+.Testimonial_card {
+  display: flex;
+  justify-content: flex-end;
+}
+.Testimonial_swiper {
+  width: 39.6%;
+}
+.Testimonial_img {
+  width: 43.1%;
+  margin: 0px 0px 0px 40px;
+}
+.Testimonial_img img {
+  width: 100%;
 }
 
 @media (max-width: 1080px) {
@@ -321,12 +347,26 @@
     grid-template-columns: 1fr;
     gap: 30px;
   }
-  .Video_wrapper{
+  .Video_wrapper {
     min-height: 0;
     width: 100%;
   }
-  .Video_wrapper > div{
+  .Video_wrapper > div {
     height: 337px !important;
+  }
+  .Testimonial_card {
+    flex-direction: column-reverse;
+  }
+  .Testimonial_img {
+    width: 100%;
+    margin: 0;
+  }
+  .Testimonial_swiper {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .Main_Header > h1{
+    font-size: 90px;
   }
 }
 
@@ -339,10 +379,13 @@
   .Main_Sub_Header {
     width: auto;
   }
+  .Main_Header > h1{
+    font-size: 72px;
+  }
 }
 
-@media (max-width:380px){
-  .Appointment_Content_Grid{
+@media (max-width: 380px) {
+  .Appointment_Content_Grid {
     grid-template-columns: 1fr;
   }
 }

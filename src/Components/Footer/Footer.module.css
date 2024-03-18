@@ -1,0 +1,141 @@
+.Footer_sec {
+  max-width: 1200px;
+  height: 500px;
+  margin-inline: auto;
+  background-color: var(--text-black);
+}
+.Footer_wrapper {
+  display: flex;
+  padding: 150px 0;
+}
+.Company_info {
+  width: 41.7%;
+}
+.Company_social {
+  width: 58.3%;
+}
+.Brand {
+  margin-bottom: 65px;
+}
+.Company_address > h3 {
+  font-family: var(--font-secondary);
+  color: var(--text-white);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+  width: 325px;
+  margin-bottom: 34px;
+}
+.Company_address > h2 {
+  font-family: var(--font-secondary);
+  letter-spacing: 0px;
+}
+.Company_address > a {
+  color: var(--text-secondary);
+  font-size: 18px;
+}
+.Company_address > a:hover {
+  color: var(--text-white);
+}
+.Company_social {
+  padding: 0px 20px 0px 20px;
+}
+.Company_social > h2 {
+  max-width: 90%;
+  color: var(--text-white);
+  font-family: var(--font-secondary);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2em;
+  letter-spacing: -0.96px;
+}
+.Company_social > p {
+  color: #a2a2a2;
+  font-family: "Libre Caslon Text", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+  max-width: 65%;
+  margin-bottom: 55px;
+}
+.Company_social > a {
+  text-decoration: none;
+  color: var(--text-white);
+  font-family: var(--font-secondary);
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1em;
+  letter-spacing: 0px;
+}
+.Company_Links {
+  display: flex;
+  margin-top: 79px;
+}
+.Company_policy {
+  width: 55.4%;
+}
+.Company_policy > h5 {
+  color: var(--text-white);
+  font-family: "Libre Caslon Text", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+}
+.Company_policy > p {
+  color: var(--text-secondary);
+  font-family: "Libre Caslon Text", Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-bottom: 42px;
+  letter-spacing: 0px;
+  width: 80%;
+}
+.social {
+  width: 44.6%;
+}
+.policy {
+  display: flex;
+  gap: 20px;
+}
+.policy a {
+  text-decoration: none;
+  font-family: "Libre Caslon Text", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+  color: var(--text-white);
+}
+
+.social {
+  display: flex;
+}
+.social > ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0px;
+}
+
+.social > ul > li > a {
+  height: 25px;
+  width: 25px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: var(--text-white);
+  transition: all 0.4s;
+  text-decoration: none;
+  font-size: 22px;
+}
+.social > ul > li a:hover {
+  color: var(--text-black);
+  background-color: var(--text-white);
+}

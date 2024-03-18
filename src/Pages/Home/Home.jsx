@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import ReactPlayer from "react-player";
 import TestimonialsSlider from "../../Components/TestimonialsSlider/TestimonialsSlider";
+import Heading from "../../Components/Heading/Heading";
 
 export default function Home() {
   return (
@@ -153,21 +154,17 @@ export default function Home() {
       {/* Will Be Styled... */}
       <section className={styles.Testimonials_sec}>
         <div className={styles.Testimonials_Wrapper}>
-          <div className={styles.Testimonials_Details}>
-            <p className="section-sub-heading">TESTIMONIAL</p>
-            <h2 className="section-heading">
-              Kind words from our happy clients
-            </h2>
-          </div>
-          <div className={styles.Testimonials_Grid}>
-            {/* Testimonial Slider */}
-            <TestimonialsSlider />
-            {/* Image */}
-            <img
-              src="/assets/Testimonials_image.webp"
-              alt="Boy Playing Chess"
-            />
-          </div>
+          <section className={styles.Teastimonial_about}>
+            <Heading title={`TESTIMONIALS`} headline={`Kind words from our happy clients`} />
+            <div className={styles.Testimonial_card}>
+              <div className={styles.Testimonial_swiper}>
+                <TestimonialsSlider />
+              </div>
+              <div className={styles.Testimonial_img}>
+                <img src="/assets/Testimonials_image.webp" alt="Boy playing chess" />
+              </div>
+            </div>
+          </section>
         </div>
       </section>
     </>

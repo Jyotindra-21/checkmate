@@ -11,7 +11,7 @@ export default function Header() {
     <div className={styles.Header_Links_Wrapper}>
         <ul>
             <li>
-                <Link>Home</Link>
+                <Link to="/">Home</Link>
             </li>
             <li>
                 <Link to="/about">About Us</Link>

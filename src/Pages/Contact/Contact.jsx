@@ -2,6 +2,7 @@ import React from 'react'
 import style from "./Contact.module.css"
 import Heading from '../../Components/Heading/Heading'
 import { Link } from 'react-router-dom'
+import { FaFacebookF, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
 
 export default function Contact() {
     return (
@@ -22,17 +23,16 @@ export default function Contact() {
                                 <div className={style.Contact_social}>
                                     <ul>
                                         <li>
-                                            {/* replace f with icon */}
-                                            <Link>F</Link>
+                                            <Link><i className="fa-brands fa-facebook-f"></i></Link>
                                         </li>
                                         <li>
-                                            <Link>F</Link>
+                                            <Link><i className="fa-brands fa-instagram"></i></Link>
                                         </li>
                                         <li>
-                                            <Link>F</Link>
+                                            <Link><i className="fa-brands fa-youtube"></i></Link>
                                         </li>
                                         <li>
-                                            <Link>F</Link>
+                                            <Link><i className="fa-brands fa-twitter"></i></Link>
                                         </li>
                                     </ul>
 
@@ -67,7 +67,7 @@ export default function Contact() {
             </section>
 
             <section className={style.Contact_map}>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14689.556347632617!2d72.58813614414566!3d23.009481917567584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85c51048cefb%3A0x777f51782a8b7a1a!2sKankaria%20Lake!5e0!3m2!1sen!2sin!4v1710592155828!5m2!1sen!2sin" width={"100%"} height={450} style={{border: 0}} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14689.556347632617!2d72.58813614414566!3d23.009481917567584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85c51048cefb%3A0x777f51782a8b7a1a!2sKankaria%20Lake!5e0!3m2!1sen!2sin!4v1710592155828!5m2!1sen!2sin" width={"100%"} height={450} style={{ border: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
             </section>
         </>
 

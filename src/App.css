@@ -23,9 +23,12 @@ body {
 .section-sub-heading {
   font-size: 14px;
 }
-
 .section-heading {
   font-size: clamp(1.75rem, 1.5498rem + 1.0008vw, 2.5rem);
+  font-weight: 700;
+  font-weight: 700;
+  line-height: 1.2em;
+  letter-spacing: -0.96px;
 }
 
 .section-24px {
@@ -34,9 +37,7 @@ body {
 
 /* Carousel */
 
-
-
-/* .carousel {
+.carousel {
   display: flex;
   flex-direction: column-reverse;
 }
@@ -47,11 +48,19 @@ body {
 }
 .carousel-indicators [data-bs-target] {
   background-color: transparent !important;
-  background-image: radial-gradient(at center center, #171717 23%, #ffffff 23%) !important;
+  background-image: radial-gradient(
+    at center center,
+    #171717 23%,
+    #ffffff 23%
+  ) !important;
   width: 36px !important;
   height: 36px !important;
   border-radius: 50% !important;
 }
-.carousel-indicators .active{
-  background-image: radial-gradient(at center center, #171717 23%, #A2A2A266 23%) !important;
-} */
+.carousel-indicators .active {
+  background-image: radial-gradient(
+    at center center,
+    #171717 23%,
+    #a2a2a266 23%
+  ) !important;
+}
