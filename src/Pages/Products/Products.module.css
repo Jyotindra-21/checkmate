@@ -1,0 +1,18 @@
+.Product_Main {
+  background-color: var(--text-white);
+  padding: 100px 0;
+}
+.Product_wrapper {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 0 20px;
+}
+
+.Product_Title {
+  font-size: 24px;
+  color: var(--text-black);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: var(--font-secondary);
+}
+

@@ -1,0 +1,89 @@
+.Product_Card {
+  width: 280px;
+}
+.Card_img {
+  position: relative;
+}
+.Card_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.whishList_btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 36px;
+  width: 36px;
+  font-family: var(--font-secondary);
+  background-color: var(--text-white);
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50%;
+  padding: 5px;
+}
+.whishList_btn:hover {
+  background-color: #bf2e35;
+  color: var(--text-white);
+}
+.Offer_off {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-family: var(--font-secondary);
+  background-color: #ccc;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.Card_details {
+  font-size: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+.Card_details > h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--text-black);
+  text-transform: capitalize;
+}
+.Card_details > h3.Product_size,
+.Card_details > h3.Product_color {
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+.Card_details > h3.Product_price {
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #bf2e35;
+}
+.Card_details > h3.Product_price > span {
+  font-family: var(--font-secondary);
+  color: var(--text-secondary);
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+.Product_rating {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.Product_rating::before {
+  content: "\2605";
+  margin-right: 3px;
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 300px) {
+ 
+}

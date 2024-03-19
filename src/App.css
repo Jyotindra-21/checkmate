@@ -46,7 +46,7 @@ body {
   justify-content: flex-start !important;
   margin: 20px 0 !important;
 }
-.carousel-indicators [data-bs-target] {
+.carousel-indicators [data-bs-target] , .swiper-pagination-bullet {
   background-color: transparent !important;
   background-image: radial-gradient(
     at center center,
@@ -57,7 +57,7 @@ body {
   height: 36px !important;
   border-radius: 50% !important;
 }
-.carousel-indicators .active {
+.carousel-indicators .active ,.swiper-pagination-bullet-active {
   background-image: radial-gradient(
     at center center,
     #171717 23%,
