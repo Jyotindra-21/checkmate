@@ -1,0 +1,11 @@
+.News_Container {
+  background-color: white;
+}
+.News_Main {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 0 20px;
+}
+.News_Articles {
+  padding: 100px 0;
+}

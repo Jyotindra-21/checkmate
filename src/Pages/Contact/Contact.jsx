@@ -2,7 +2,7 @@ import React from 'react'
 import style from "./Contact.module.css"
 import Heading from '../../Components/Heading/Heading'
 import { Link } from 'react-router-dom'
-import { FaFacebookF, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
+// import { FaFacebookF, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
 
 export default function Contact() {
     return (
