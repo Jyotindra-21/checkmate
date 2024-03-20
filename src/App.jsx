@@ -13,6 +13,8 @@ import Products from "./Pages/Products/Products";
 import ProductDetail from "./Pages/ProductDetail/ProductDetail";
 import Bag from "./Pages/Bag/Bag";
 import Checkout from "./Pages/Checkout/Checkout";
+import Membership from "./Pages/Membership/Membership";
+import SearchResult from "./Pages/SearchResult/SearchResult";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path="/products/:id" element={<ProductDetail />} />
         <Route path="/cart" element={<Bag />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/membership" element={<Membership />} />
+        <Route path="/membership/:search" element={<SearchResult />} />
       </Routes>
       <Footer />
     </>

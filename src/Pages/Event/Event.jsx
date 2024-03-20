@@ -55,7 +55,6 @@ export default function Event() {
               <td>SK Pauh Jaya , pulau pinag</td>
             </tr>
           </tbody>
-
         </table>
       </div>
     </section>

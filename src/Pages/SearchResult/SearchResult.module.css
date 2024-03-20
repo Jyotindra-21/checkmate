@@ -1,20 +1,20 @@
-.Event_Main {
+.Search_Main {
   background-color: var(--text-white);
   padding: 100px 0;
 }
-.Event_wrapper {
+.Search_wrapper {
   max-width: 1200px;
   margin-inline: auto;
   padding: 0 20px;
 }
-.Event_Title {
+.Search_Title {
   font-size: 43px;
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
   font-family: var(--font-secondary);
 }
-.Event_table {
+.Search_table {
   border: 1px solid var(--text-secondary);
   color: var(--text-black);
   border-collapse: collapse;
@@ -22,32 +22,32 @@
   font-size: 20px;
   
 }
-.Event_table thead{
+.Search_table thead{
   border-bottom: 3px solid var(--text-black);
 }
 
-.Event_table tr,
-.Event_table tr td,
-.Event_table tr th {
+.Search_table tr,
+.Search_table tr td,
+.Search_table tr th {
   border: 1px solid var(--text-secondary);
   font-family: var(--font-secondary);
 }
-.Event_table tr th {
+.Search_table tr th {
   padding: 15px 5px 0 5px;
 }
-.Event_table tr td {
+.Search_table tr td {
   padding: 0 5px;
 }
-.Event_table tr td > a {
+.Search_table tr td > a {
   color: var(--text-black);
   cursor: pointer;
   text-decoration: none;
   font-family: var(--font-secondary);
 }
-.Event_table tr td > a:hover {
+.Search_table tr td > a:hover {
   color: var(--text-secondary);
 }
-.Event_table tr td > a.Register {
+.Search_table tr td > a.Register {
   text-decoration: underline;
 }
 @media (max-width: 1080px) {
