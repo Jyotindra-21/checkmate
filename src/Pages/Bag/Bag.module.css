@@ -63,9 +63,32 @@
   font-family: var(--font-secondary);
   text-transform: uppercase;
   font-weight: 600;
-  font-size: larger;
+  font-size: medium;
   color: var(--text-white);
   border-radius: 50px;
   width: 100%;
   background-color: #2c7eb6;
+}
+@media only screen and (max-width: 768px) {
+  .Bag_Container{
+    flex-direction: column;
+  }
+  .Your_Bag {
+    width: 100%;
+  }
+  .Cart_Summary{
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+  }
+  .Checkout_Btn{
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .Checkout_Btn{
+    font-size: medium;
+    width: 100%;
+  }
 }

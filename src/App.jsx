@@ -12,6 +12,7 @@ import Event from "./Pages/Event/Event";
 import Products from "./Pages/Products/Products";
 import ProductDetail from "./Pages/ProductDetail/ProductDetail";
 import Bag from "./Pages/Bag/Bag";
+import Checkout from "./Pages/Checkout/Checkout";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/products/:id" element={<ProductDetail />} />
         <Route path="/cart" element={<Bag />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
       <Footer />
     </>
