@@ -11,6 +11,7 @@ import News from "./Pages/News/News";
 import Event from "./Pages/Event/Event";
 import Products from "./Pages/Products/Products";
 import ProductDetail from "./Pages/ProductDetail/ProductDetail";
+import Bag from "./Pages/Bag/Bag";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/event" element={<Event />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/:id" element={<ProductDetail />} />
+        <Route path="/cart" element={<Bag />} />
       </Routes>
       <Footer />
     </>
