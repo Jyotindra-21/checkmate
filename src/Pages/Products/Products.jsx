@@ -19,7 +19,7 @@ export default function Products() {
                 <h2 className={styles.Product_Title}>OUR PRODUCT & services</h2>
                 <div className={styles.Product_slider}>
                     <Swiper
-                        style={{ padding: " 0 0 100px 0" }}
+                        style={{ padding: "50px 0 100px 0" }}
                         slidesPerView={1}
                         spaceBetween={50}
                         freeMode={true}
@@ -46,7 +46,7 @@ export default function Products() {
                         <SwiperSlide>
                             <ProductCard
                                 img={`https://cdn.shopify.com/s/files/1/0156/6146/files/LegacyT-Shirt-GSBlack-A5A3B-BB2J-0328_78f8c7e3-41d4-4c8c-a6ed-25901b7bd581_1920x.jpg?v=1704288380`}
-                                href={"/product/1"}
+                                href={"/products/1"}
                                 alt={"legacy T-shirt"}
                                 ProductName={`Legacy T-Shirt`}
                                 ProductSize={`slim fit`}
@@ -59,7 +59,7 @@ export default function Products() {
                         <SwiperSlide>
                             <ProductCard
                                 img={`https://cdn.shopify.com/s/files/1/0156/6146/files/LegacyT-Shirt-GSBlack-A5A3B-BB2J-0328_78f8c7e3-41d4-4c8c-a6ed-25901b7bd581_1920x.jpg?v=1704288380`}
-                                href={"/product/1"}
+                                href={"/products/1"}
                                 alt={"legacy T-shirt"}
                                 ProductName={`Legacy T-Shirt`}
                                 ProductSize={`slim fit`}
@@ -72,7 +72,7 @@ export default function Products() {
                         <SwiperSlide>
                             <ProductCard
                                 img={`https://cdn.shopify.com/s/files/1/0156/6146/files/LegacyT-Shirt-GSBlack-A5A3B-BB2J-0328_78f8c7e3-41d4-4c8c-a6ed-25901b7bd581_1920x.jpg?v=1704288380`}
-                                href={"/product/1"}
+                                href={"/products/1"}
                                 alt={"legacy T-shirt"}
                                 ProductName={`Legacy T-Shirt`}
                                 ProductSize={`slim fit`}
@@ -85,7 +85,7 @@ export default function Products() {
                         <SwiperSlide>
                             <ProductCard
                                 img={`https://cdn.shopify.com/s/files/1/0156/6146/files/LegacyT-Shirt-GSBlack-A5A3B-BB2J-0328_78f8c7e3-41d4-4c8c-a6ed-25901b7bd581_1920x.jpg?v=1704288380`}
-                                href={"/product/1"}
+                                href={"/products/1"}
                                 alt={"legacy T-shirt"}
                                 ProductName={`Legacy T-Shirt`}
                                 ProductSize={`slim fit`}
@@ -98,7 +98,7 @@ export default function Products() {
                         <SwiperSlide>
                             <ProductCard
                                 img={`https://cdn.shopify.com/s/files/1/0156/6146/files/LegacyT-Shirt-GSBlack-A5A3B-BB2J-0328_78f8c7e3-41d4-4c8c-a6ed-25901b7bd581_1920x.jpg?v=1704288380`}
-                                href={"/product/1"}
+                                href={"/products/1"}
                                 alt={"legacy T-shirt"}
                                 ProductName={`Legacy T-Shirt`}
                                 ProductSize={`slim fit`}
@@ -113,7 +113,7 @@ export default function Products() {
                 </div>
                 <div className={styles.Product_slider}>
                     <Swiper
-                        style={{ padding: " 0 0 100px 0" }}
+                        style={{ padding: " 50px 0 100px 0" }}
                         slidesPerView={1}
                         spaceBetween={50}
                         freeMode={true}
@@ -140,7 +140,7 @@ export default function Products() {
                         <SwiperSlide>
                             <ProductCard
                                 img={`https://cdn.shopify.com/s/files/1/0156/6146/files/LegacyT-Shirt-GSBlack-A5A3B-BB2J-0328_78f8c7e3-41d4-4c8c-a6ed-25901b7bd581_1920x.jpg?v=1704288380`}
-                                href={"/product/1"}
+                                href={"/products/1"}
                                 alt={"legacy T-shirt"}
                                 ProductName={`Legacy T-Shirt`}
                                 ProductSize={`slim fit`}
@@ -153,7 +153,7 @@ export default function Products() {
                         <SwiperSlide>
                             <ProductCard
                                 img={`https://cdn.shopify.com/s/files/1/0156/6146/files/LegacyT-Shirt-GSBlack-A5A3B-BB2J-0328_78f8c7e3-41d4-4c8c-a6ed-25901b7bd581_1920x.jpg?v=1704288380`}
-                                href={"/product/1"}
+                                href={"/products/1"}
                                 alt={"legacy T-shirt"}
                                 ProductName={`Legacy T-Shirt`}
                                 ProductSize={`slim fit`}
@@ -166,7 +166,7 @@ export default function Products() {
                         <SwiperSlide>
                             <ProductCard
                                 img={`https://cdn.shopify.com/s/files/1/0156/6146/files/LegacyT-Shirt-GSBlack-A5A3B-BB2J-0328_78f8c7e3-41d4-4c8c-a6ed-25901b7bd581_1920x.jpg?v=1704288380`}
-                                href={"/product/1"}
+                                href={"/products/1"}
                                 alt={"legacy T-shirt"}
                                 ProductName={`Legacy T-Shirt`}
                                 ProductSize={`slim fit`}
@@ -179,7 +179,7 @@ export default function Products() {
                         <SwiperSlide>
                             <ProductCard
                                 img={`https://cdn.shopify.com/s/files/1/0156/6146/files/LegacyT-Shirt-GSBlack-A5A3B-BB2J-0328_78f8c7e3-41d4-4c8c-a6ed-25901b7bd581_1920x.jpg?v=1704288380`}
-                                href={"/product/1"}
+                                href={"/products/1"}
                                 alt={"legacy T-shirt"}
                                 ProductName={`Legacy T-Shirt`}
                                 ProductSize={`slim fit`}
@@ -192,7 +192,7 @@ export default function Products() {
                         <SwiperSlide>
                             <ProductCard
                                 img={`https://cdn.shopify.com/s/files/1/0156/6146/files/LegacyT-Shirt-GSBlack-A5A3B-BB2J-0328_78f8c7e3-41d4-4c8c-a6ed-25901b7bd581_1920x.jpg?v=1704288380`}
-                                href={"/product/1"}
+                                href={"/products/1"}
                                 alt={"legacy T-shirt"}
                                 ProductName={`Legacy T-Shirt`}
                                 ProductSize={`slim fit`}

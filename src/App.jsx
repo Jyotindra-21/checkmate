@@ -10,6 +10,7 @@ import Footer from "./Components/Footer/Footer";
 import News from "./Pages/News/News";
 import Event from "./Pages/Event/Event";
 import Products from "./Pages/Products/Products";
+import ProductDetail from "./Pages/ProductDetail/ProductDetail";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/event" element={<Event />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/products/:id" element={<ProductDetail />} />
       </Routes>
       <Footer />
     </>
