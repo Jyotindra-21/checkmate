@@ -15,6 +15,7 @@ import Bag from "./Pages/Bag/Bag";
 import Checkout from "./Pages/Checkout/Checkout";
 import Membership from "./Pages/Membership/Membership";
 import SearchResult from "./Pages/SearchResult/SearchResult";
+import SideEvent from "./Pages/SideEvent/SideEvent";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/news" element={<News />} />
         <Route path="/event" element={<Event />} />
+        <Route path="/side-event" element={<SideEvent />} />
         <Route path="/products" element={<Products />} />
         <Route path="/products/:id" element={<ProductDetail />} />
         <Route path="/cart" element={<Bag />} />

@@ -1,0 +1,63 @@
+.SideEvent_Main {
+  background-color: var(--text-white);
+  padding: 100px 0;
+}
+.SideEvent_wrapper {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 0 20px;
+}
+.SideEvent_Title {
+  font-size: 43px;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: var(--font-secondary);
+}
+.SideEvent_table {
+  border: 1px solid var(--text-secondary);
+  color: var(--text-black);
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 20px;
+  
+}
+.SideEvent_table thead{
+  border-bottom: 3px solid var(--text-black);
+}
+
+.SideEvent_table tr,
+.SideEvent_table tr td,
+.SideEvent_table tr th {
+  border: 1px solid var(--text-secondary);
+  font-family: var(--font-secondary);
+}
+.SideEvent_table tr th {
+  padding: 15px 5px 0 5px;
+}
+.SideEvent_table tr td {
+  padding: 0 5px;
+}
+.SideEvent_table tr td > a {
+  color: var(--text-black);
+  cursor: pointer;
+  text-decoration: none;
+  font-family: var(--font-secondary);
+}
+.SideEvent_table tr td > a:hover {
+  color: var(--text-secondary);
+}
+.SideEvent_table tr td > a.Register {
+  text-decoration: underline;
+}
+@media (max-width: 1080px) {
+}
+
+@media (max-width: 830px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 380px) {
+}

@@ -24,7 +24,7 @@
   font-weight: 400;
   line-height: 1.4em;
   letter-spacing: 0px;
-  width: 325px;
+  width: 300px;
   margin-bottom: 34px;
 }
 .Company_address > h2 {
@@ -167,10 +167,12 @@
   .social > ul{
     gap: 15px;
   }
+  .Company_address > h3{
+    width: 100%;
+  }
+  .Company_info{
+    width: 100%;
+  }
 }
 
-@media (max-width: 480px) {
-}
 
-@media (max-width: 380px) {
-}
